@@ -18,5 +18,5 @@ if __name__ == '__main__':
     input_data = get_data(day=DAY, year=YEAR)
     ans1 = part1(input_data)
     submit(answer=ans1, day=DAY, year=YEAR, part=1)
-    # ans2 = part2(input_data)
-    # submit(answer=ans1, day=DAY, year=YEAR, part=2)
+    #ans2 = part2(input_data)
+    #submit(answer=ans2, day=DAY, year=YEAR, part=2)
