@@ -30,7 +30,8 @@ class AStar:
         pq.put(PrioritizedState(priority=0, state=start))
 
         while not pq.empty():
-            f, u = astuple(pq.get())
+            top = pq.get()
+            f, u = top.priority, top.state
             if u in closed:
                 continue
             closed.add(u)
